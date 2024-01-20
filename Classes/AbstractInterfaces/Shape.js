@@ -1,6 +1,9 @@
 class AbstractShape {
     constructor(color) {
       this.color = color;
+      if (new.target === Drawable) {
+        throw new Error("object can't be creat");
+    }
     }
   
     calculateArea() {

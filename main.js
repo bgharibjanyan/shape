@@ -9,3 +9,4 @@ greenCircle.draw();
 let blackCircle=new Circle("black",320);
 blackCircle.draw();
 
+let drawer =new Drawable()
