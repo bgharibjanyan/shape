@@ -12,6 +12,6 @@ class AbstractShape {
     }
   
     displayInfo() {
-      console.log(` ${this.constructor.name}:: ${this.color}`);
+      throw new Error(` ${this.constructor.name}:: ${this.color}`);
     }
   }
